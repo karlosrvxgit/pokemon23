@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .card {
+    height: 250px;
+    width: 200px;
+    background-color: rgba(43, 211, 226, 0.188);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  #imagenes {
+    height:120px;
+    
+  }
+  
+  #buscar {
+    background-color: rgba(43, 211, 226, 0.188);
+  }
+  
+  #input1 {
+    height: 35px;
+    width: 250px;
+    display: flex;
+    text-align: center;
+  }
+  
+  #section1 {
+    display: flex;
+    
+  }
+  
+  .contenidomodal {
+    background-color: rgb(18, 189, 195);
+    /* background-color: rgb(98, 224, 79); */
+    width: 30%;
+    height: 55%;
+    border-radius: 10%;
+    padding: 10px 20px;
+  }
+  
+  #nombremod {
+    color: red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #attrib {
+    font-size: 22px;
+  }
